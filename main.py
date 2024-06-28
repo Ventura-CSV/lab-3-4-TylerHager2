@@ -6,6 +6,17 @@ def main():
     Code Your Program here
     ########################################
     """
+    
+    if x > 0:
+        if y > 0:
+            quadrant = 1
+        elif y < 0:
+            quadrant = 4
+    elif x < 0:
+        if y > 0:
+            quadrant = 2
+        elif y < 0:
+            quadrant = 3
 
     print(f'Quadrant: {quadrant}')
     ########################################
